@@ -4,7 +4,7 @@ import { Card } from "./Card";
 export default function App() {
   return (
     <div className="App">
-      <Card />
+      <Card title="Very Long Title" />
     </div>
   );
 }

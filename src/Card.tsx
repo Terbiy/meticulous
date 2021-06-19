@@ -6,5 +6,9 @@ type CardProps = {
 };
 
 export function Card({ title, text }: CardProps) {
-  return <section className="Card">{title}</section>;
+  return (
+    <section className="Card">
+      <h2 className="Card__Title">{title}</h2>
+    </section>
+  );
 }

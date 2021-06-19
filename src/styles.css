@@ -1,3 +1,13 @@
+:root {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 .App {
   font-family: sans-serif;
   display: flex;
@@ -9,6 +19,16 @@
 .Card {
   width: 12em;
   height: 16em;
+  padding: 1em;
   background-color: #ffe4c4;
   box-shadow: 0.25em 0.25em #78b6ff;
+  color: #934f00;
+}
+
+.Card__Title {
+  padding: 0;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
