@@ -9,6 +9,7 @@ export function Card({ title, text }: CardProps) {
   return (
     <section className="Card">
       <h2 className="Card__Title">{title}</h2>
+      <p className="Card__Text">{text}</p>
     </section>
   );
 }
