@@ -1,4 +1,14 @@
 .App {
   font-family: sans-serif;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.Card {
+  width: 12em;
+  height: 16em;
+  background-color: #ffe4c4;
+  box-shadow: 0.25em 0.25em #78b6ff;
 }
