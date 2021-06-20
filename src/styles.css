@@ -8,12 +8,17 @@
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
 .App {
   font-family: sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  min-height: 100vh;
+  padding: 1em;
 }
 
 .Card {

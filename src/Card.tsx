@@ -15,7 +15,7 @@ export function Card({ title = "", text = "", emphasized = false }: CardProps) {
 
   return (
     <section className={classes}>
-      <h2 className="Card__Title">{title}</h2>
+      {title && <h2 className="Card__Title">{title}</h2>}
       <p className="Card__Text">{text}</p>
     </section>
   );
